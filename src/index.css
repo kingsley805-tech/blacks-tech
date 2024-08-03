@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shad{
+  box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.5);
+}
+.borderz{
+    border-top-right-radius:40%;
+    border-bottom-left-radius:40%;
+  }
+.borz{
+    border-top-right-radius:40%;
+    
+  }
+  .bord{
+    border-top-left-radius:60%;
+    border-bottom-right-radius:60%;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile devices go here */
+    #oneC{
+      display: none;
+      visibility: hidden;
+      
+    }
+      
+   
+    .footer{
+      width: 400px;
+      display: inline;
+      justify-content: space-between;
+    }
+  }
+  @media  (min-width: 1024px)and (max-width:1280px){
+    #force{
+      margin-top: -100px;
+      border-top-left-radius: 50%;
+    }
+    
+  }
+  @media  (min-width: 1280px)and (max-width:1920px){
+    #force{
+      margin-top: -100px;
+      border-top-left-radius: 50%;
+    }
+  }
+  #for{
+    margin-bottom: 0px ;
+    border-top-right-radius: 50%;
+    
+  }
+  
