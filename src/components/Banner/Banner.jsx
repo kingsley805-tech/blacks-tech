@@ -17,9 +17,11 @@ const Banner = () => {
             <p className="">
             Our team excels in providing comprehensive services that drive efficiency, enhance security, and promote growth. Whether you require custom software development, robust cybersecurity measures, or seamless IT infrastructure management, we have the expertise to transform your vision into reality.
             </p>
+            <a href="/contact">
+            
             <button className="rounded-md bg-white px-4 py-2 text-sm  text-black transition-colors duration-300 hover:bg-white/90">
               Get Started
-            </button>
+            </button></a>
           </div>
           <div className="md:order-1 order-2 borderz">
             <iframe
