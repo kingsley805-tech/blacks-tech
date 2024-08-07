@@ -31,21 +31,21 @@ export default function Services() {
     <Navbar2 />
     <ResponsiveMenu />
     
-<main className="  bg-[conic-gradient(var(--tw-gradient-stops))] mb-24 from-white/5 via-black to-white/5 w-full">
+<main className="  bg-gradient-to-r from-black via-t mb-24  to-black w-full">
       
-      <section className="container flex h-[650px] flex-col items-center justify-center bg-[conic-gradient(var(--tw-gradient-stops))] from-white/5 via-black to-white/5  md:h-[500px] ">
+      <section className="container flex h-[650px] flex-col items-center justify-center   md:h-[500px] ">
       <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent md:h-[572px] h-[720px] to-white   opacity-50"></div>
+      <div className="absolute inset-0 bg-black  md:h-[572px] h-[720px]  "></div>
   <div
     data-aos="fade-right"
     data-aos-duration="400"
     data-aos-once="true"
-    className="flex flex-col items-center gap-4 text-center font-semibold text-black md:text-white md:items-start md:text-left"
+    className="flex flex-col items-center gap-4 text-center font-semibold k text-white md:items-start md:text-left"
   >
-    <h1 className="text-4xl md:text-white">
+    <h1 className="text-4xl text-white">
     Efficiency and Reliability
     </h1>
-    <p className="md:text-white/50 hidden md:block">
+    <p className="text-white font-normal ">
     In today’s fast-paced world, we understand the importance of efficiency and reliability. We are committed to providing timely and dependable services that you can count on. Our processes are streamlined to ensure that you receive prompt and accurate results, without compromising on quality. We value your time and strive to make every interaction with us as smooth and efficient as possible..
     </p>
     <div className="space-x-4">
@@ -233,7 +233,7 @@ export default function Services() {
       alt="car!" />
   </figure>
   <div className="   text-white p-3 rounded-2xl shadow-md flex flex-col items-start justify-start">
-               <img src="..\src\assets\opti.jpg" className='w-10' alt="System Integration" />
+               <img src="../src/assets/prolog.svg" className='w-10' alt="System Integration" />
                <div className="flex items-start justify-start md:space-y-4 flex-col">
                <h1 className=' font-bold  text-md '>
                  System Integration

@@ -54,6 +54,9 @@ const Navbar2 = () => {
               <li className="cursor pointer hover:text-gray-800 hover:animate-pulse">
                 <a href="./career">careers</a>
               </li>
+              <li className="cursor pointer  hover:text-gray-800 hover:animate-pulse   bg-black p-2 rounded-full text-white animate-pulse">
+                <a href="./">Learning Platform</a>
+              </li>
               <li className="cursor pointer hover:text-white hover:animate-pulse bg-black p-2 rounded-full text-white animate-pulse">
                 <a href="./contact">Contact Us</a>
               </li>

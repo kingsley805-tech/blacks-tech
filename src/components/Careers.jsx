@@ -31,21 +31,21 @@ export default function Career() {
     <Navbar2 />
     <ResponsiveMenu />
     
-<main className="  bg-[conic-gradient(var(--tw-gradient-stops))] from-white/5 via-black to-white/5 w-full">
+<main className="  bg-black w-full">
       
-      <section className="container flex h-[650px] flex-col items-center justify-center bg-[conic-gradient(var(--tw-gradient-stops))] from-white/5 via-black to-white/5  md:h-[500px] ">
+      <section className="container flex h-[650px] flex-col items-center justify-center bg-[conic-gradien  md:h-[500px] ">
       <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent md:h-[572px] h-[720px] to-white   opacity-50"></div>
+      <div className="absolute inset-0 bg-black  md:h-[572px] h-[720px]"></div>
   <div
     data-aos="fade-right"
     data-aos-duration="400"
     data-aos-once="true"
-    className="flex flex-col items-center gap-4 text-center font-semibold text-black md:text-white md:items-start md:text-left"
+    className="flex flex-col items-center gap-4 text-center font-semibold text-white md:items-start md:text-left"
   >
-    <h1 className="text-4xl md:text-white">
+    <h1 className="text-4xl text-white">
     Customer-Centric Approach
     </h1>
-    <p className="md:text-white/50 hidden md:block">
+    <p className="text-white font-normal">
     At our organization, we pride ourselves on our commitment to delivering exceptional service to each and every client. Our motto, "We Serve You Right and Perfectly," is not just a slogan—it's a promise that we strive to uphold in all our interactions and operations.
     </p>
     <div className="space-x-4">
