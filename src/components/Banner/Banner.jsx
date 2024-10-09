@@ -32,7 +32,7 @@ const Banner = () => {
   <div className="display flex items-center justify-center flex-col ">
     <div className="artboard artboard-demo phone-1">
       <video
-        src="../src/assets/coding-vid.mp4"
+        src="../src/assets/code.mp4"
         autoPlay
         loop
         muted
